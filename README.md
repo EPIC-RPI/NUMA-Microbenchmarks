@@ -2,6 +2,7 @@
 
 ## Dependency
 - libnuma-dev
+- libomp-dev
 
 ## Compile
 ```bash
