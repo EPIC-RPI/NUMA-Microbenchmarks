@@ -6,7 +6,7 @@
 
 ## Compile
 ```bash
-gcc -O2 -fopenmp -o numa_benchmark numa_benchmark.c -lnuma
+gcc -O2 -fopenmp -o build/numa_benchmark numa_benchmark.c -lnuma
 ```
 
 ## Run
@@ -21,7 +21,7 @@ sudo ./numa_benchmark <node_id> <array_size> <matrix_size>
 - Large:  1000000000  9000
 
 ```bash
-sudo ./numa_benchmark 2 10000000 1000
-sudo ./numa_benchmark 2 100000000 5000
-sudo ./numa_benchmark 2 1000000000 9000
+sudo build/numa_benchmark 2 10000000 1000
+sudo build/numa_benchmark 2 100000000 5000
+sudo build/numa_benchmark 2 1000000000 9000
 ```
