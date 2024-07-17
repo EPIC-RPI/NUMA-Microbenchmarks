@@ -11,7 +11,7 @@ gcc -O2 -fopenmp -o build/numa_benchmark numa_benchmark.c -lnuma
 
 ## Run
 ```bash
-sudo ./numa_benchmark <node_id> <array_size> <matrix_size>
+sudo build/numa_benchmark <node_id> <array_size> <matrix_size>
 ```
 
 ## Test
