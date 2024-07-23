@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define NUM_ITERATIONS 10
+#define NUM_ITERATIONS 1 // Use 1 iter for Ramulator; 10 takes too long
 
 void bandwidth_throughput_benchmark(int node, long long array_size)
 {
